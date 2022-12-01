@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    color: #fff;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+  }
+  header{
+    height: 150px;
+    display: flex;
+    background-image: url(https://i.pinimg.com/originals/02/12/08/02120811ec264ca35fe8f4b5825b60d7.jpg);
+    background-position: 0 15%;
+    background-size: cover;
+  }
+  #home{
+    width: 30px;
+    height: 30px;
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+  h1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  body{
+    background-color:black;
+  }
+  .container{
+    width: 100%;
+    height:100%;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns:repeat(5,1fr);
+    grid-template-rows:repeat(6,25vh);
+    grid-gap:10px;
+  }
+  .foto01{
+    background-color:blue;
+    grid-column:1/3;
+    grid-row:1/3;
+    border-radius: 10px;
+    background-image: url(https://i0.statig.com.br/bancodeimagens/1v/4q/yz/1v4qyzv4xndi1rrsum9o2eloj.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .foto02{
+    background-color:#ff0080;
+    grid-column:3/6;
+    grid-row:1/3;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://www.proibidoler.com/wp-content/uploads/2022/02/critica-the-batman-2022-4.jpeg);
+
+  }
+  .foto03{
+    background-color:#ff66b3;
+    grid-column:1/2;
+    grid-row:3/5;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://img.elo7.com.br/product/original/3FBBED5/big-poster-filme-batman-2022-90x60-cm-lo004-presente-geek.jpg);
+}
+  .foto04{
+    background-color:#ff99cc;
+    grid-column:2/3;
+    grid-row:3/5;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 40%;
+    background-image: url(https://s2.glbimg.com/Ksi8JukEwCe7_7WWPhPj60dvNY0=/600x400/smart/e.glbimg.com/og/ed/f/original/2022/02/02/screenshot_2022-02-02_at_08-49-07_the_batman_2022.png);
+  }
+  .foto05{
+    background-color:#ffcce6;
+    grid-column:3/5;
+    grid-row:3/5;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://observatoriodocinema.uol.com.br/wp-content/uploads/2022/03/batman-3.jpg);
+  }
+  .foto06{
+    background-color:#b300b3;
+    grid-column:5/6;
+    grid-row:3/4;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://cdn.theplaylist.net/wp-content/uploads/2021/12/14171829/the-batman-cat-woman-Zoe-kravitz-750x400.jpg);
+  }
+  .foto07{ 
+    background-color:#e600e6;
+    grid-column:5/6;
+    grid-row:4/5;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://www.10wallpaper.com/wallpaper/2560x1920/2204/The_Batman_2022_Science_Fiction_Films_5K_Poster_2560x1920.jpg);
+  }
+  .foto08{
+    background-color:#ffff00;
+    grid-column:1/2;
+    grid-row:5/6;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://d2d7ho1ae66ldi.cloudfront.net/ArquivoNoticias/cd6f73f7-636a-11ec-aa6e-9587410378a2/the-batman-riddler.jpg);
+  }
+  .foto09{
+    background-color:#ffff4d;
+    grid-column:2/3;
+    grid-row:5/6;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://blogger.googleusercontent.com/img/a/AVvXsEi6Tm4IHpg0zPSgGj8Dup6GG9qQpk0PBXxIqp1HWH0XJ7ZYE0yWPxImMCUdyorr3ja5GZqP33HaXPsog0FgmX6BMgy8d-9Ol45TBWKa-NSZwlehCunhixWPHAesr5lWVrzKAKhLqM1Z6-ypYDkjflRRRyfIBHrfW7J0mow5RI7eS_oAJhy68bpQYtxT=s16000);
+  }
+  .foto10{
+    background-color:#ffffb3;
+    grid-column:3/5;
+    grid-row:5/6;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 60%;
+    background-image: url(https://blink102.com.br/file/2020/10/the-batman-so-em-2022.jpg);
+  }
+  .foto11{
+    background-color:#b366ff;
+    grid-column:5/6;
+    grid-row:5/7;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://img.elo7.com.br/product/original/3FBBEDD/big-poster-filme-batman-2022-90x60-cm-lo006-poster.jpg);
+  }
+  .foto12{
+    background-color:#d9b3ff;
+    grid-column:1/2;
+    grid-row:6/7;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://ovicio.com.br/wp-content/uploads/2022/10/20221012-ovicio-batman-charada.jpg);
+  }
+  .foto13{
+    background-color:#4ddbff;
+    grid-column:2/3;
+    grid-row:6/7;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://www.journaldugeek.com/content/uploads/2022/02/disney-no-exit-49.jpg);
+  }
+  .foto14{
+    background-color:#008fb3;
+    grid-column:3/5;
+    grid-row:6/7;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 30%;
+    background-image: url(https://static.cnews.fr/sites/default/files/styles/image_750_422/public/batman2_62275b60c76d0_0.jpg?itok=KCHwpnZS);
+  }
+footer{
+  height: 90px;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+#logo{
+  width: 150px;
+  height: auto;
+}

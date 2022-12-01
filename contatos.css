@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    color:#fff;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+body{
+    display: flex;
+}
+.container{
+    width: 30%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+#home{
+    width: 30px;
+    height: 30px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.grid{
+    width: 80%; 
+    display: grid;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: repeat(4,120px);
+    grid-template-areas: 
+    "titulo titulo"
+    "ico-local local"
+    "ico-tel telefone"
+    "ico-mail mail";
+    background-color: rgba(255,255,255,0.07);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    box-shadow: -4px -4px 11px #c8c2c2a2,
+               4px 4px 9px rgba(147, 149, 151, 0.871);
+}
+.titulo{
+    grid-area: titulo;
+    padding: 45px 40%;
+}
+#call{
+    grid-area: ico-tel;
+    padding-top: 15px;
+    padding-left: 50px;
+}
+.call{
+    grid-area:telefone;
+    padding: 10px;
+}
+#local{
+    grid-area:ico-local;
+    padding-top: 15px;
+    padding-left: 50px;
+}
+.local{
+    grid-area:local;
+    padding: 10px;
+}
+#mail{
+    grid-area:ico-mail;
+    padding-top: 15px;
+    padding-left: 50px;
+}
+.mail{
+    grid-area:mail;
+    padding: 10px;
+}
+.background{
+    width: 70%;
+    background-image: url(https://i.pinimg.com/originals/02/12/08/02120811ec264ca35fe8f4b5825b60d7.jpg);
+}
