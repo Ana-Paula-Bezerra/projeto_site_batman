@@ -77,3 +77,12 @@ body{
     width: 70%;
     background-image: url(https://i.pinimg.com/originals/02/12/08/02120811ec264ca35fe8f4b5825b60d7.jpg);
 }
+@media(max-width:768px){
+    .background{
+        display: none;
+    }
+    .container{
+        width: 100%;
+        background-image: url(https://i.pinimg.com/originals/02/12/08/02120811ec264ca35fe8f4b5825b60d7.jpg);
+    }
+}
