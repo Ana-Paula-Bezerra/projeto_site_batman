@@ -82,5 +82,15 @@ button{
 body{
     background-size: cover;
     background-position: 50%;
+    display:block;
+    padding-bottom: 90%;
+
+}
+area{
+    display: block;
+}
+form{
+    align-items: center;
+    justify-content: center;
 }
 }

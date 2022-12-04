@@ -84,5 +84,18 @@ body{
     .container{
         width: 100%;
         background-image: url(https://i.pinimg.com/originals/02/12/08/02120811ec264ca35fe8f4b5825b60d7.jpg);
+        background-size: cover;
+        background-position: 18%;
+    }
+    .titulo{
+        grid-area: titulo;
+        padding: 45px 40%;
+    }
+    .grid{
+        top:40%;
+        left: 40%;
+        transform: translate(-50%, -50%);
+        width: 60%; 
+
     }
 }

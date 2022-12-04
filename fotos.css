@@ -34,7 +34,7 @@
     margin-top: 10px;
     display: grid;
     grid-template-columns:repeat(5,1fr);
-    grid-template-rows:repeat(6,25vh);
+    grid-template-rows:repeat(7,25vh);
     grid-gap:10px;
     grid-template-areas: 
     "f01 f01 f02 f02 f02"
@@ -87,7 +87,7 @@
     background-image: url(https://observatoriodocinema.uol.com.br/wp-content/uploads/2022/03/batman-3.jpg);
   }
   .foto06{
-    background-color:#b300b3;
+    background-color:black;
     border-radius: 10px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -119,7 +119,7 @@
     background-image: url(https://blogger.googleusercontent.com/img/a/AVvXsEi6Tm4IHpg0zPSgGj8Dup6GG9qQpk0PBXxIqp1HWH0XJ7ZYE0yWPxImMCUdyorr3ja5GZqP33HaXPsog0FgmX6BMgy8d-9Ol45TBWKa-NSZwlehCunhixWPHAesr5lWVrzKAKhLqM1Z6-ypYDkjflRRRyfIBHrfW7J0mow5RI7eS_oAJhy68bpQYtxT=s16000);
   }
   .foto10{
-    background-color:#ffffb3;
+    background-color:black;
     border-radius: 10px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -174,14 +174,14 @@ footer{
   width: 150px;
   height: auto;
 }
-@media only screen and (max-width:768px){
+@media (max-width:768px){
   header{
     display: block;
   }
  
   .container{
-    grid-template-columns:repeat(2,1fr);
-    grid-template-rows:repeat(18,25vh);
+    grid-template-columns:repeat(1,2fr);
+    grid-template-rows:repeat(26,25vh);
     grid-gap:10px;
     grid-template-areas: 
     "f01 f01"
@@ -195,22 +195,58 @@ footer{
     "f05 f05"
     "f05 f05"
     "f06 f06"
-    "f06 f06"
     "f07 f07"
     "f07 f07"
     "f08 f08"
     "f08 f08"
     "f09 f09"
     "f09 f09"
-    "f010 f010"
-    "f010 f010"
-    "f011 f011"
-    "f011 f011"
-    "f012 f012"
-    "f012 f012"
-    "f013 f013"
-    "f013 f013"
-    "f014 f014"
-    "f014 f014";
+    "f10 f10"
+    "f11 f11"
+    "f11 f11"
+    "f12 f12"
+    "f12 f12"
+    "f13 f13"
+    "f13 f13"
+    "f14 f14"
+    "f14 f14";
+  }
+  .foto01{
+    background-position: 50% 0%;
+  }
+  .foto02{
+    background-position: 50% 0%;
+  }
+  .foto04{
+    background-position: 40% 0%;
+  }
+  .foto05{
+    background-position: 60% 0%;
+  }
+  .foto06{
+    background-position: 70% 0%;
+    background-size: contain;
+  }
+  .foto07{
+    background-position: 30% 0%;
+  }
+  .foto08{
+    background-position: 60% 0%;
+  }
+  .foto09{
+    background-position: 40% 0%;
+  }
+  .foto10{
+    background-position: 50% 0%;
+    background-size: contain;
+  }
+  .foto12{
+    background-position: 50% 0%;
+  }
+  .foto13{
+    background-position: 40% 0%;
+  }
+  .foto14{
+    background-position: 50% 0%;
   }
   }
