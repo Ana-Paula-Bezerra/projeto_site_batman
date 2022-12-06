@@ -1,2 +1,2 @@
 # projeto_site_batman
- Primeiro projeto prático do curso Profissão Programador usando apenas Html e Css
+Primeiro projeto prático do curso Profissão Programador, feito apenas com HTML e CSS.
