@@ -23,7 +23,7 @@ body{
     padding-top: 20px;
 }
 .grid{
-    width: 80%; 
+    width: 70%; 
     display: grid;
     position: absolute;
     top:50%;
@@ -33,9 +33,9 @@ body{
     grid-template-rows: repeat(4,120px);
     grid-template-areas: 
     "titulo titulo"
-    "ico-local local"
-    "ico-tel telefone"
-    "ico-mail mail";
+    "pin local"
+    "call telefone"
+    "mail email";
     background-color: rgba(255,255,255,0.07);
     border-radius: 10px;
     backdrop-filter: blur(10px);
@@ -44,34 +44,40 @@ body{
 }
 .titulo{
     grid-area: titulo;
-    padding: 45px 40%;
+    padding-top: 50px;
+    padding-left: 110px;
 }
 #call{
-    grid-area: ico-tel;
-    padding-top: 15px;
-    padding-left: 50px;
+    grid-area:call ;
+    width: 30px;
+    height:30px;
+    padding-left: 20px;
 }
-.call{
+.telefone{
     grid-area:telefone;
-    padding: 10px;
+
 }
-#local{
-    grid-area:ico-local;
-    padding-top: 15px;
-    padding-left: 50px;
+#pin{
+    grid-area:pin;
+    width: 30px;
+    height:30px;
+    padding-left: 20px;
+
 }
 .local{
     grid-area:local;
-    padding: 10px;
+
 }
 #mail{
-    grid-area:ico-mail;
-    padding-top: 15px;
-    padding-left: 50px;
-}
-.mail{
     grid-area:mail;
-    padding: 10px;
+    width: 30px;
+    height:30px;
+    padding-left: 20px;
+
+}
+.email{
+    grid-area:email;
+
 }
 .background{
     width: 70%;
@@ -90,12 +96,10 @@ body{
     .titulo{
         grid-area: titulo;
         padding: 45px 40%;
-    }
+    }    
     .grid{
-        top:40%;
-        left: 40%;
-        transform: translate(-50%, -50%);
-        width: 60%; 
-
+        grid-template-rows: repeat(4,110px);
+        width: 300px;
+        top:60%;
     }
 }

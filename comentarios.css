@@ -6,8 +6,8 @@
     }
 body{
     background-image: url(https://www.thecosmiccircus.com/wp-content/uploads/2022/04/brian-batman-banner-idea.png);
-    background-size: contain;
-    background-repeat:no-repeat;
+    background-size: cover;
+
 }
 #home{
     width: 30px;
@@ -90,7 +90,7 @@ area{
     display: block;
 }
 form{
-    align-items: center;
+    margin-top: 80px;
     justify-content: center;
 }
 }
